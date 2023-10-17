@@ -12,9 +12,11 @@
 
     <!-- box icons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- javascript animation  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
-<body>
+<body class="main_body">
 
     <!-- header design -->
     <header class="header">
@@ -42,12 +44,12 @@
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora et aspernatur voluptatibus iste, molestias adipisci laboriosam ipsam, ex, architecto cupiditate placeat! Magnam quis reprehenderit facere optio natus.</p>
 
-            <div class="btn-box">
+            <div  data-aos="fade-right" class="btn-box">
                 <a href="#" class="btn">Hair ME</a>
                 <a href="#" class="btn">Let's Talk</a>
             </div>
         </div>
-        <div class="home-sci">
+        <div   class="home-sci">
             <a href="#"><i class='bx bxl-facebook' ></i></a>
             <a href="#"><i class='bx bxl-github' ></i></i></a>
             <!-- <a href="#"><i class='bx bxl-linkedin' ></i></a> -->
@@ -62,17 +64,22 @@
 
     <!-- about section design -->
     <section class="about" id="about">
-        <h2 class="heading">About <span>Me</span></h2>
+        <h2 data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500" 
+        class="heading">About <span>Me</span></h2>
 
-        <div class="about-img">
+        <div data-aos="fade-up"
+             data-aos-duration="3000"
+         class="about-img">
             <img src="./images//about-1.png" alt="">
             <span class="circle-spin"></span>
         </div>
         <div class="about-content">
-            <h3>Front-End Developer</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam reprehenderit dolor, eius, sequi ipsam quidem ut maxime doloremque obcaecati optio iure soluta ab omnis illo pariatur, cum expedita in! Non facere voluptate atque facilis sit incidunt natus, consectetur vero harum..</p>
+            <h3 data-aos="fade-down-right" >Front-End Developer</h3>
+            <p data-aos="fade-down-left" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam reprehenderit dolor, eius, sequi ipsam quidem ut maxime doloremque obcaecati optio iure soluta ab omnis illo pariatur, cum expedita in! Non facere voluptate atque facilis sit incidunt natus, consectetur vero harum..</p>
 
-            <div class="btn-box btns">
+            <div data-aos="fade-down-right" class="btn-box btns">
                 <a href="#" class="btn">Read More</a>
             </div>
         </div>
@@ -81,15 +88,18 @@
     <!-- education section design -->
 
     <section class="education" id="education">
-        <h2 class="heading">My <span>Journey</span></h2>
+        <h2 data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+        class="heading">My <span>Journey</span></h2>
 
         <div class="education-row">
             <!-- Education section -->
             <div class="education-column">
-                <h3 class="title">Education</h3>
+                <h3 data-aos="fade-down-right" class="title">Education</h3>
 
                 <div class="education-box">
-                    <div class="education-content">
+                    <div data-aos="fade-right" class="education-content">
                         <div class="content">
                             <div class="year"><i class='bx bxs-calendar' ></i>2017-2018</div>
                             <h3>master-degree-University</h3>
@@ -97,7 +107,7 @@
                         </div>
                     </div>
 
-                    <div class="education-content">
+                    <div data-aos="fade-right" class="education-content">
                         <div class="content">
                             <div class="year"><i class='bx bxs-calendar' ></i>2018-2019</div>
                             <h3>Diploma in Computer Engineering  </h3>
@@ -105,7 +115,7 @@
                         </div>
                     </div>
 
-                    <div class="education-content">
+                    <div data-aos="fade-right" class="education-content">
                         <div class="content">
                             <div class="year"><i class='bx bxs-calendar' ></i>2019-2020</div>
                             <h3>Secondary School Certificate</h3>
@@ -117,9 +127,9 @@
             </div>
             <!-- Experience section -->
             <div class="education-column">
-                <h3 class="title">Experience</h3>
+                <h3 data-aos="fade-down-left" class="title">Experience</h3>
 
-                <div class="education-box">
+                <div data-aos="fade-left" class="education-box">
                     <div class="education-content">
                         <div class="content">
                             <div class="year"><i class='bx bxs-calendar' ></i>2017-2018</div>
@@ -128,7 +138,7 @@
                         </div>
                     </div>
 
-                    <div class="education-content">
+                    <div data-aos="fade-left" class="education-content">
                         <div class="content">
                             <div class="year"><i class='bx bxs-calendar' ></i>2018-2019</div>
                             <h3>Web Developer Company</h3>
@@ -136,7 +146,7 @@
                         </div>
                     </div>
 
-                    <div class="education-content">
+                    <div data-aos="fade-left" class="education-content">
                         <div class="content">
                             <div class="year"><i class='bx bxs-calendar' ></i>2019-2020</div>
                             <h3>Web Developer Company</h3>
@@ -152,40 +162,45 @@
     <!-- skills section design -->
 
     <section class="skills" id="skills">
-        <h2 class="heading">My <span>Skills</span></h2>
+        <h2 data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+        class="heading">My <span>Skills</span></h2>
 
         <div class="skills-row">
-            <div class="skills-column">
-                <h3 class="title">COding Skils</h3>
+            <div data-aos="fade-down"
+                data-aos-duration="3000"
+             class="skills-column">
+                <h3 data-aos="fade-down-right" class="title">COding Skils</h3>
 
                 <div class="skill-box">
                     <div class="skill-content">
-                        <div class="progress">
+                        <div data-aos="fade-right" class="progress">
                             <h3>HTML <span>90%</span></h3>
                             <div class="bar"><span></span></div>
                         </div>
 
-                        <div class="progress">
+                        <div data-aos="fade-right" class="progress">
                             <h3>CSS <span>90%</span></h3>
                             <div class="bar"><span></span></div>
                         </div>
 
-                        <div class="progress">
+                        <div data-aos="fade-right" class="progress">
                             <h3>Tailwind CSS<span>90%</span></h3>
                             <div class="bar"><span></span></div>
                         </div>
 
-                        <div class="progress">
+                        <div data-aos="fade-right" class="progress">
                             <h3>DaisyUi  CSS<span>90%</span></h3>
                             <div class="bar"><span></span></div>
                         </div>
 
-                        <div class="progress">
+                        <div data-aos="fade-right" class="progress">
                             <h3>Javascript <span>90%</span></h3>
                             <div class="bar"><span></span></div>
                         </div>
 
-                        <div class="progress">
+                        <div data-aos="fade-right" class="progress">
                             <h3>Bootstrap <span>90%</span></h3>
                             <div class="bar"><span></span></div>
                         </div>
@@ -193,37 +208,38 @@
                 </div>
             </div>
             <!-- profasinal skills -->
-            <div class="skills-column">
-                <h3 class="title">Profasional Skils</h3>
+            <div data-aos="fade-up"
+                 data-aos-duration="3000" class="skills-column">
+                <h3 data-aos="fade-down-left" class="title">Profasional Skils</h3>
 
                 <div class="skill-box">
                     <div class="skill-content">
-                        <div class="progress">
+                        <div data-aos="fade-left" class="progress">
                             <h3>WEB design  <span>90%</span></h3>
                             <div class="bar"><span></span></div>
                         </div>
 
-                        <div class="progress">
+                        <div data-aos="fade-left" class="progress">
                             <h3>Web Development<span>90%</span></h3>
                             <div class="bar"><span></span></div>
                         </div>
 
-                        <div class="progress">
+                        <div data-aos="fade-left" class="progress">
                             <h3>Youtube<span>90%</span></h3>
                             <div class="bar"><span></span></div>
                         </div>
 
-                        <div class="progress">
+                        <div data-aos="fade-left" class="progress">
                             <h3>Social Media Management <span>90%</span></h3>
                             <div class="bar"><span></span></div>
                         </div>
 
-                        <div class="progress">
+                        <div data-aos="fade-left" class="progress">
                             <h3>Video Editing  <span>90%</span></h3>
                             <div class="bar"><span></span></div>
                         </div>
 
-                        <div class="progress">
+                        <div data-aos="fade-left" class="progress">
                             <h3>Keywords Research<span>90%</span></h3>
                             <div class="bar"><span></span></div>
                         </div>
@@ -237,48 +253,53 @@
 
     <!-- contact section design -->
     <section class="contact" id="contact">
-        <h2 class="heading">contact <span>ME!</span></h2>
+        <h2 data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500" 
+        class="heading">contact <span>ME!</span></h2>
 
         <form action="#">
             <div class="input-box">
-                <div class="input-field">
+                <div  data-aos="fade-down-right" class="input-field">
                     <input type="text" placeholder="Full Nmae" required>
                     <span class="focus"></span>
                 </div>
-                <div class="input-field">
+                <div data-aos="fade-down-left" class="input-field">
                     <input type="text" placeholder="Emai Address" required>
                     <span class="focus"></span>
                 </div>
             </div>
 
             <div class="input-box">
-                <div class="input-field">
+                <div data-aos="fade-up-right" class="input-field">
                     <input type="number" placeholder="Number" required>
                     <span class="focus"></span>
                 </div>
-                <div class="input-field">
+                <div data-aos="fade-up-left" class="input-field">
                     <input type="text" placeholder="Emai Subject" required>
                     <span class="focus"></span>
                 </div>
             </div>
 
-            <div class="textarea-field">
+            <div data-aos="zoom-out-down"
+             class="textarea-field">
                 <textarea name="" id="" cols="30" rows="10" placeholder="Your Massage" required></textarea>
                 <span class="focus"></span>
             </div>
-            <div class="btn-box btns">
+            <div data-aos="fade-left" class="btn-box btns">
                 <button type="submit" class="btn">submit</button>
             </div>
         </form>
     </section>
 
     <!-- footer design -->
-    <footer class="footer"> 
-        <div class="footer-text">
+    <footer  class="footer"> 
+        <div 
+          class="footer-text">
             <p>Copyright&copy;2023 freelancer shakil squad | All Right REserved.</p>
         </div>
 
-        <div class="footer-iconTop">
+        <div  class="footer-iconTop">
             <a href="#"><i class='bx bxs-hand-up' ></i></a>
         </div>
     </footer>
@@ -286,8 +307,12 @@
 
 
     <script src="js/script.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>
 
-<link rel="icon" type="image/svg+xml" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAACJUlEQVR4nGNgQAMSDknBap5Jm+RdUmbIOCW1ybskT1FwTd7CbZ2izUAISDglZci5JD30jk3+j4x1fJLuMdjHCxA0QM0z5ZyuT9I9x8ish1GZJbeySqqvl1bX3dT1z2kkqJnBOI1VxT39oVNM7v0rm+f8/XR8yf8zG2b+e3d00X+HyKIiwgbYx3M0Nje/YJ+34JVEc99D+/LWZ8x7N3/KntD/hDgDjNNY21tbn4q1Tnpo1Nh9v3DqhMe802Y/6Zwx8a1NeFEmYQMYGBhq6pqOfj+19D8y3jR/8kcRl3RVogxwjioK37F48juY5sd75/8NSi1fRpRmBvt6Fn6bTMGQxIL7zTXVNzsaaq7XlJW9lHVJD2OwCOVkMIvmY7VM0gGFFYZelpi+QuaqdbeZG3e80K+cdbe6pvZ+W33tI9+yrlssDdtesoY1PWNeuvQh04ldf5iXLX3CWtI+lSE0lBmqvZ6JuWLtDYY1r/5jw8wNm58x3jr2m+H9xf+M5/f+B9P3T/xlLWrvgDo9noO5busTnAZ0Lr3DePnAf+YVy/4zr1z+n3nV8v+MF/f/Z5497zxxBkxa9oBl5tz/jDePgA1gvHXkP8uMOf+ZFyy6y8DAwAiOf9aY3kPMeYuwYpbc3ssgZzPt2Qy2HUSD+Cxdk/cQFTkssSWWzMuW3gdpYnhzAayZeeXyx+zp9Q7ERS8DAwNrWLEOS2X3Qpa+GTtY6noWsoUWa8EkAVn/PsD4fIpuAAAAAElFTkSuQmCC">
