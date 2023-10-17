@@ -291,6 +291,7 @@ span{
     border-bottom: .3rem solid var(--second-bg-color);
     border-left: .3rem solid var(--main-color);
     border-right:  .3rem  solid var(--main-color);
+    animation: aboutSpinner 8s linear infinite;
 }
 
 .about-content{
@@ -816,5 +817,11 @@ span{
     75%,
     81%{
         opacity: 0;
+    }
+}
+
+@keyframes aboutSpinner{
+    100% {
+        transform: translate(-50% , -50%) rotate(360deg);
     }
 }
